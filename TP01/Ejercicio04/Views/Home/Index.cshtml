@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Ejercicio04";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Ejercicio04</h1>
+    <form asp-action="Ejercicio4" asp-controller="Home" method="post">
+        <label>Kilometros conducidos: </label>
+        <input type="number" name="km" step="1" />
+        <br />
+        <label>Litros usados: </label>
+        <input type="number" name="lt" step="1" />
+        <br />
+        <input type="submit" />
+    </form>
+</div>
